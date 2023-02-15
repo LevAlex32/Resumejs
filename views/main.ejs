@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме</title>
+</head>
+<body>
+    <%- include("partials/menu.ejs") %>
+    <h3><%=home %></h3>
+     
+    <h4>ФИО</h4>
+     <p> Фамилия: <%=lastname %> </p>
+     <p> Имя: <%=firstname %> </p>
+     <p> Отчество: <%=fathername %> </p>
+
+     <h4><%=contacts %></h4>
+        <p>Номер телефона: <%=phone %></p>
+        <p>Электронная почта: <%=email %></p>
+
+        <h4>Информация</h4>
+        <p><%=siam %></p>
+        <p>Сильные стороны:</p>
+        <nav>
+            <ul>
+                <li><%=strong_sides1 %></li>
+                <li><%=strong_sides2 %></li>
+                <li><%=strong_sides3 %></li>
+                <li><%=strong_sides4 %></li>
+                <li><%=strong_sides5 %></li>
+            </ul>
+        </nav>
+        <p>Цель: <%=purpose %></p>
+        <p>Цель: <%=experience %></p>
+        <%- include("partials/footer.ejs") %>
+
+        <h4>Навыки и увлечения</h4>
+        <p><%=skills %></p>
+        <nav>
+            <ul>
+                <li><%=skill1 %></li>
+                <li><%=skill2 %></li>
+                <li><%=skill3 %></li>
+            </ul>
+        </nav>
+        <p><%=hobbies %></p>
+        <nav>
+            <ul>
+                <li><%=hobbie1 %></li>
+                <li><%=hobbie2 %></li>
+                <li><%=hobbie3 %></li>
+            </ul>
+        </nav>
+
+        <h4><%=header %></h4>
+        <p><%=cat1 %></p>
+        <nav>
+            <ul>
+                <li><%=subcat1_1 %></li>
+                <li><%=subcat1_2 %></li>
+            </ul>
+        </nav>
+        <p><%=cat2 %></p>
+        <nav>
+            <ul>
+                <li><%=subcat2_1 %></li>
+                <li><%=subcat2_2 %></li>
+            </ul>
+        </nav>
+        <p><%=cat3 %></p>
+        <nav>
+            <ul>
+                <li><%=subcat3_1 %></li>
+                <li><%=subcat3_2 %></li>
+                <li><%=subcat3_3 %></li>
+                <li><%=subcat3_4 %></li>
+            </ul>
+        </nav>
+     <%- include("partials/footer.ejs") %>
+</body>
+</html>

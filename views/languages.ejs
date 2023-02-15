@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме</title>
+</head>
+<body>
+    <%- include("partials/menu.ejs") %>
+        <h3><%=header %></h3>
+        <p><%=cat1 %></p>
+        <nav>
+            <ul>
+                <li><%=subcat1_1 %></li>
+                <li><%=subcat1_2 %></li>
+            </ul>
+        </nav>
+        <p><%=cat2 %></p>
+        <nav>
+            <ul>
+                <li><%=subcat2_1 %></li>
+                <li><%=subcat2_2 %></li>
+            </ul>
+        </nav>
+        <p><%=cat3 %></p>
+        <nav>
+            <ul>
+                <li><%=subcat3_1 %></li>
+                <li><%=subcat3_2 %></li>
+                <li><%=subcat3_3 %></li>
+                <li><%=subcat3_4 %></li>
+            </ul>
+        </nav>
+        <%- include("partials/footer.ejs") %>
+</body>
+</html>

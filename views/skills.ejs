@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме</title>
+</head>
+<body>
+    <%- include("partials/menu.ejs") %>
+        <h3>Навыки и увлечения</h3>
+        <p><%=skills %></p>
+        <nav>
+            <ul>
+                <li><%=skill1 %></li>
+                <li><%=skill2 %></li>
+                <li><%=skill3 %></li>
+            </ul>
+        </nav>
+        <p><%=hobbies %></p>
+        <nav>
+            <ul>
+                <li><%=hobbie1 %></li>
+                <li><%=hobbie2 %></li>
+                <li><%=hobbie3 %></li>
+            </ul>
+        </nav>
+        <%- include("partials/footer.ejs") %>
+</body>
+</html>
